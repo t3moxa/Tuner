@@ -111,8 +111,12 @@ fun NoteIdentifierScreen(
                             .align(Alignment.Center)
                     )
                 }
-
             }
         }
     }
+}
+
+@Composable
+fun drawIddentifiedNote(noteHZ: Int, modifier: Modifier = Modifier) {
+    //todo
 }

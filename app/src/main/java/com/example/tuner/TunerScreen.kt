@@ -226,3 +226,8 @@ fun TunerScreen(
         }
     }
 }
+
+@Composable
+fun drawNoteDeviation(noteHZ: Int, modifier: Modifier = Modifier) {
+    //todo
+}
