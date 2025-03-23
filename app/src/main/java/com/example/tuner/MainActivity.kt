@@ -35,7 +35,7 @@ object SettingsScreen
 fun AppStart() {
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = MainScreen) {
+    NavHost(navController = navController, startDestination = MetronomeScreen) {
         composable<MainScreen> { MainScreen(
             onNavigateToTuner = {
                 navController.navigate(
